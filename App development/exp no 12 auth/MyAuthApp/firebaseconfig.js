@@ -9,7 +9,7 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyDXDrkX51Lp15280GPHniBIVRX_opU5C6k",
+  apiKey: "",
   authDomain: "my-authapp-454e6.firebaseapp.com",
   projectId: "my-authapp-454e6",
   storageBucket: "my-authapp-454e6.appspot.com",
@@ -23,4 +23,5 @@ const app = initializeApp(firebaseConfig);
 // Initialize Firebase Auth with persistence
 export const auth = getAuth(app);
 // For Expo, you don't need to manually set persistence with AsyncStorage here.
+
 // Firebase handles it correctly with the default (browserLocalPersistence).
